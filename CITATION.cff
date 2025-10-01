@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Congestion bounds via Laplacian eigenvalues and their application to tensor networks with arbitrary geometry"
+abstract: |
+  Embedding the vertices of arbitrary graphs into trees while minimizing some measure of overlap is an important problem with applications in computer science and physics. In this work, we consider the problem of bijectively embedding the vertices of an n-vertex graph G into the leaves of an n-leaf rooted binary tree ContractionTree. The congestion of such an embedding is given by the largest size of the cut induced by the two components obtained by deleting any vertex of ContractionTree. The congestion cng(G) is defined as the minimum congestion obtained by any embedding. We show that λ₂(G)·2n/9 ≤ cng(G) ≤ λₙ(G)·2n/9, where 0 = λ₁(G) ≤ ... ≤ λₙ(G) are the Laplacian eigenvalues of G. We also provide a contraction heuristic given by hierarchically spectral clustering the original graph, which we numerically find to be effective in finding low congestion embeddings for sparse graphs. We numerically compare our congestion bounds on different families of graphs with regular structure (hypercubes and lattices), random graphs, and tensor network representations of quantum circuits. Our results imply lower and upper bounds on the memory complexity of tensor network contraction in terms of the underlying graph.
+authors:
+  - family-names: Mukherjee
+    given-names: Sayan
+    email: sayan@phys.s.u-tokyo.ac.jp
+    orcid: "https://orcid.org/0000-0001-8838-0455"
+    affiliation: "Graduate School of Science, The University of Tokyo, Tokyo, Japan"
+  - family-names: Akiyama
+    given-names: Shinichiro
+    email: akiyama@ccs.tsukuba.ac.jp
+    orcid: "https://orcid.org/0000-0003-1415-5620"
+    affiliation: |
+      Center for Computational Sciences, University of Tsukuba, Tsukuba, Japan;
+      Graduate School of Science, The University of Tokyo, Tokyo, Japan
+license: "MIT"
+version: "1.0.0"
+date-released: "2025-10-01"
+repository-code: "https://github.com/Potla1995/congestion-laplacian"
+doi: "TODO_ADD_ONCE_AVAILABLE"
+url: "TODO_ADD_ONCE_AVAILABLE"
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Mukherjee
+      given-names: Sayan
+    - family-names: Akiyama
+      given-names: Shinichiro
+  title: "Congestion bounds via Laplacian eigenvalues and their application to tensor networks with arbitrary geometry"
+  journal: "arXiv preprint"
+  year: 2025
+  note: "Preprint"
+  doi: "TODO_ADD_ONCE_AVAILABLE"
+  url: "https://arxiv.org/abs/TODO"

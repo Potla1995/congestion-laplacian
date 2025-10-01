@@ -22,6 +22,3 @@ Installation of the following python libraries are required to run this code:
 - To perform the lattice experiments, run `plot_lattice.py`.
 - All plots are generated as `pdf` files in the `output` directory.
 - The data obtained by this code, along with the `csv` files is in the `output/` directory
-
-### Citing this work
-- 
